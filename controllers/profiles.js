@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Profile = require('../models/Profile');
 
-router.get('/profiles', (req, res) => {
+router.get('/', (req, res) => {
   Profile.find({}).then(profiles => {
     res.json(profiles);
   });
