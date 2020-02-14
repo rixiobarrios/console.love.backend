@@ -1,0 +1,18 @@
+[
+    {
+        "image": "https://i.imgur.com/p0KVwki.jpg",
+        "name": "Jenny Block",
+        "age": "34",
+        "location": "Atlanta, GA",
+        "about": "me",
+        "languages": "ruby, Javascript, python"
+    },
+    {
+        "image": "https://i.imgur.com/JyxBbd1.png",
+        "name": "Bill Cox",
+        "age": "21",
+        "location": "Dayton, OH",
+        "about": "me",
+        "languages": "C++, Java, C#"
+    }
+]
