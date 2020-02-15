@@ -11,4 +11,21 @@ describe('GET /profiles', () => {
       .set('Accept', 'application/json')
       .expect(200, done);
   });
+  it('should return an array of objects with all the correct fields', done => {
+    api
+      .get('/profiles')
+      .set('Accept', 'application/json')
+      .end((error, response) => {
+        response.body.forEach(profile => {
+          expect(profile).includes.all.keys(
+            'image',
+            'name',
+            'location',
+            'about',
+            'languages'
+          );
+        });
+        done();
+      });
+  });
 });
