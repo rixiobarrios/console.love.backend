@@ -86,3 +86,39 @@ describe('POST /profiles', () => {
             });
     });
 });
+
+describe('PUT /profiles/:id', () => {
+    let profileToUpdate = {
+        _id: '5e4847ff0c3232a147a2d9eb',
+        image: 'https://imgur.com/2MeCdsu',
+        name: 'Nadine Labaki',
+        age: 27,
+        location: 'Columbus, Ohio',
+        about: 'Not a fan of hockey',
+        languages: 'ruby, Javascript, python'
+    };
+
+    before(done => {
+        api.put(`/profiles/${profileToUpdate.id}`)
+            .set('Accept', 'application/json')
+            .send(profileToUpdate)
+            .end(done);
+    });
+
+    it('should update a profile by id', done => {
+        api.get(`/profiles/${profileToUpdate.id}`)
+            .set('Accept', 'application/json')
+            .end((error, response) => {
+                console.log(response.body);
+                expect(response.body.name).to.equal(profileToUpdate.name);
+                expect(response.body).to.include.all.keys(
+                    'image',
+                    'name',
+                    'location',
+                    'about',
+                    'languages'
+                );
+            });
+        done();
+    });
+});
