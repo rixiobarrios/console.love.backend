@@ -11,8 +11,7 @@ router.get('/', (req, res) => {
 
 // Get profile by id
 router.get('/:id', (req, res) => {
-  let profile = Profile.find(profile => profile.id === parseInt(req.params.id));
-  res.json(profile);
+  Profile.findById(req.params.id).then(profile => res.json(profile));
 });
 
 // POST new Profile //

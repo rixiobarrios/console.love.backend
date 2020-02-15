@@ -29,3 +29,23 @@ describe('GET /profiles', () => {
       });
   });
 });
+
+describe('GET /profiles/:id', () => {
+  it('should return a profile object with the correct fields', done => {
+    api
+      .get('/profiles/5e4829731e83a610baa9d183')
+      .set('Accept', 'application/json')
+      .end((error, response) => {
+        // check for fields
+        expect(response.body).to.be.an('object');
+        expect(response.body).to.include.all.keys(
+          'image',
+          'name',
+          'location',
+          'about',
+          'languages'
+        );
+        done();
+      });
+  });
+});
