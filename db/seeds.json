@@ -1,18 +1,82 @@
 [
     {
-        "image": "https://i.imgur.com/p0KVwki.jpg",
-        "name": "Jenny Block",
-        "age": "34",
-        "location": "Atlanta, GA",
-        "about": "me",
+        "image": "https://imgur.com/2MeCdsu",
+        "name": "Nadine Labaki",
+        "age": "27",
+        "location": "Columbus, Ohio",
+        "about": "I am a massive hockey fan but got a little too close to the action when I went to watch my team, the Washington Capitals, take on Tampa Bay Lightning.",
         "languages": "ruby, Javascript, python"
     },
     {
-        "image": "https://i.imgur.com/JyxBbd1.png",
-        "name": "Bill Cox",
-        "age": "21",
-        "location": "Dayton, OH",
-        "about": "me",
-        "languages": "C++, Java, C#"
+        "image": "https://imgur.com/S7W37TC",
+        "name": "Fawad Khan",
+        "age": "41",
+        "location": "San Francisco, California",
+        "about": "I thought, from watching TV and stuff, that America was one place. They only show you L.A. and New York. They don’t warn you about Iowa.",
+        "languages": "Java, Javascript, C#, C++"
+    },
+    {
+        "image": "https://imgur.com/a4WzT4z",
+        "name": "Angela Bassett",
+        "age": "33",
+        "location": "Austin, Texas",
+        "about": "I remind myself that, though there was a time anxiety might have stopped me, today is not that day. And so, by checking in with myself, minute by minute, I push myself through",
+        "languages": "List, Perl, Swift, Javascript"
+    },
+    {
+        "image": "https://imgur.com/POVRuID",
+        "name": "James Parker",
+        "age": "37",
+        "location": "Orlando, Florida",
+        "about": "I think intelligence is usually sexy until it becomes irritating. After that, you're stuck.",
+        "languages": "Rust, Javascript, Scala, Elixir"
+    },
+    {
+        "image": "https://imgur.com/p9ruvkC",
+        "name": "Izabella Miko",
+        "age": "44",
+        "location": "San Diego, California",
+        "about": "I'm technically a vegan, but I do eat egg if it's in things.",
+        "languages": "FORTRAM, COBOL, Python, Ruby"
+    },
+    {
+        "image": "https://imgur.com/P8Vd9Ss",
+        "name": "Ramsey Nouah",
+        "age": "42",
+        "location": "Phoenix, Arizona",
+        "about": "I've found out that I may be more awkward than I thought I was, but then I never saw anyone because I was in my room a lot. It's fine not to speak when you're on your own and to stammer and to not have eye contact but, outside, it's frowned upon.",
+        "languages": "DOS, HTML, CSS, Java"
+    },
+    {
+        "image": "https://imgur.com/UNaeJPC",
+        "name": "Rosa Martinez",
+        "age": "28",
+        "location": "Boston, MA",
+        "about": "People are put into your life for seasons, for different reasons, and to teach you lessons.",
+        "languages": "Scala, Rust, Perl, C#"
+    },
+    {
+        "image": "https://imgur.com/GP1Un1L",
+        "name": "Simu Liu",
+        "age": "30",
+        "location": "Seattle, WA",
+        "about": "Coder, immigrant and superhero trainee.",
+        "languages": "Javascript, Java, Ruby, Python, C++"
+    },
+    {
+        "image": "https://imgur.com/ABRDMGN",
+        "name": "Michelle Trachtenberg",
+        "age": "33",
+        "location": "New York City, NY",
+        "about": "I just really gravitate towards a nostalgia for a time when things were simpler. When beauty was more classical and glamorous.",
+        "languages": "Java, COBOL, C#, C++"
+    },
+    {
+        "image": "https://imgur.com/k7vrzWH",
+        "name": "Xabier Elorriaga",
+        "age": "42",
+        "location": "Washington, DC",
+        "about": "I have a deep fascination with human nature, with all its virtues and all its defects.",
+        "languages": "Javascript, Python, Perl, C++, Ruby"
     }
 ]
