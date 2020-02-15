@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
 });
 
 // POST new Profile //
-router.post('/post', (req, res) => {
+router.post('/', (req, res) => {
   const newProfile = req.body;
   Profile.create(newProfile).then(profile => res.json('/'));
 });

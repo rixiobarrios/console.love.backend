@@ -49,3 +49,35 @@ describe('GET /profiles/:id', () => {
       });
   });
 });
+
+describe('POST /profiles', () => {
+  const newProfile = {
+    image: 'https://i.imgur.com/p0KVwki.jpg',
+    name: 'Jenny Block',
+    age: 34,
+    location: 'Atlanta, GA',
+    about:
+      'Kick ass singer, dancer, actress and all around badass who codes in her free time',
+    languages: 'ruby, Javascript, python'
+  };
+
+  before(done => {
+    api
+      .post('/profiles')
+      .set('Accept', 'application/json')
+      .send(newProfile)
+      .end(done);
+  });
+  it('should add new profile to collection and return it', done => {
+    api
+      .get('/profiles')
+      .set('Accept', 'application/json')
+      .end((error, response) => {
+        const profileToFind = response.body.find(
+          profile => profile.id === newProfile.id
+        );
+        expect(profileToFind).to.be.an('object');
+        done();
+      });
+  });
+});
