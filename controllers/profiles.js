@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
 });
 
 // PUT edit Profile //
-router.put('/:id', (req, res) => {
+router.put('/:id/edit', (req, res) => {
     Profile.findOneAndUpdate({ _id: req.params.id }, req.body, {
         new: true
     }).then(profile => res.json(profile));
