@@ -4,10 +4,10 @@ const supertest = require('supertest');
 
 const api = supertest('http://localhost:4000');
 
-describe('GET /', () => {
+describe('GET /profiles', () => {
   it('should return a 200 response', done => {
     api
-      .get('/')
+      .get('/profiles')
       .set('Accept', 'application/json')
       .expect(200, done);
   });
