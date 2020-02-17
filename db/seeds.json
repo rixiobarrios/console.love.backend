@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://imgur.com/2MeCdsu",
+        "image": "https://i.imgur.com/2MeCdsu.jpg",
         "name": "Nadine Labaki",
         "age": "27",
         "location": "Columbus, Ohio",
@@ -8,7 +8,7 @@
         "languages": "ruby, Javascript, python"
     },
     {
-        "image": "https://imgur.com/S7W37TC",
+        "image": "https://i.imgur.com/S7W37TC.jpg",
         "name": "Fawad Khan",
         "age": "41",
         "location": "San Francisco, California",
@@ -16,7 +16,7 @@
         "languages": "Java, Javascript, C#, C++"
     },
     {
-        "image": "https://imgur.com/a4WzT4z",
+        "image": "https://i.imgur.com/a4WzT4z.jpg",
         "name": "Angela Bassett",
         "age": "33",
         "location": "Austin, Texas",
@@ -24,7 +24,7 @@
         "languages": "List, Perl, Swift, Javascript"
     },
     {
-        "image": "https://imgur.com/POVRuID",
+        "image": "https://i.imgur.com/POVRuID.jpg",
         "name": "James Parker",
         "age": "37",
         "location": "Orlando, Florida",
@@ -32,7 +32,7 @@
         "languages": "Rust, Javascript, Scala, Elixir"
     },
     {
-        "image": "https://imgur.com/p9ruvkC",
+        "image": "https://i.imgur.com/p9ruvkC.jpg",
         "name": "Izabella Miko",
         "age": "44",
         "location": "San Diego, California",
@@ -40,7 +40,7 @@
         "languages": "FORTRAM, COBOL, Python, Ruby"
     },
     {
-        "image": "https://imgur.com/P8Vd9Ss",
+        "image": "https://i.imgur.com/P8Vd9Ss.jpg",
         "name": "Ramsey Nouah",
         "age": "42",
         "location": "Phoenix, Arizona",
@@ -48,7 +48,7 @@
         "languages": "DOS, HTML, CSS, Java"
     },
     {
-        "image": "https://imgur.com/UNaeJPC",
+        "image": "https://i.imgur.com/UNaeJPC.jpg",
         "name": "Rosa Martinez",
         "age": "28",
         "location": "Boston, MA",
@@ -56,7 +56,7 @@
         "languages": "Scala, Rust, Perl, C#"
     },
     {
-        "image": "https://imgur.com/GP1Un1L",
+        "image": "https://i.imgur.com/GP1Un1L.jpg",
         "name": "Simu Liu",
         "age": "30",
         "location": "Seattle, WA",
@@ -64,7 +64,7 @@
         "languages": "Javascript, Java, Ruby, Python, C++"
     },
     {
-        "image": "https://imgur.com/ABRDMGN",
+        "image": "https://i.imgur.com/ABRDMGN.jpg",
         "name": "Michelle Trachtenberg",
         "age": "33",
         "location": "New York City, NY",
@@ -72,7 +72,7 @@
         "languages": "Java, COBOL, C#, C++"
     },
     {
-        "image": "https://imgur.com/k7vrzWH",
+        "image": "https://i.imgur.com/k7vrzWH.jpg",
         "name": "Xabier Elorriaga",
         "age": "42",
         "location": "Washington, DC",
