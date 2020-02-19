@@ -1,13 +1,14 @@
 const mongoose = require('../db/connections');
 
 const ProfileSchema = new mongoose.Schema({
-  image: String,
-  name: String,
-  age: Number,
-  location: String,
-  bio: String,
-  languages: String,
-  github: String
+	image: String,
+	name: String,
+	age: Number,
+	location: String,
+	bio: String,
+	languages: String,
+	github: String,
+	match: String
 });
 
 const Profile = mongoose.model('Profile', ProfileSchema);
