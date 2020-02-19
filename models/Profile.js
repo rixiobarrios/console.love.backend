@@ -6,7 +6,8 @@ const ProfileSchema = new mongoose.Schema({
   age: Number,
   location: String,
   bio: String,
-  languages: String
+  languages: String,
+  github: String
 });
 
 const Profile = mongoose.model('Profile', ProfileSchema);

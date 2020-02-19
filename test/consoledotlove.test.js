@@ -22,7 +22,8 @@ describe('GET /profiles', () => {
             'name',
             'location',
             'bio',
-            'languages'
+            'languages',
+            'github'
           );
         });
         done();
@@ -54,7 +55,8 @@ describe('GET /profiles/:id', () => {
           'name',
           'location',
           'bio',
-          'languages'
+          'languages',
+          'github'
         );
         done();
       });
@@ -69,7 +71,8 @@ describe('POST /profiles', () => {
     location: 'Atlanta, GA',
     bio:
       'Kick ass singer, dancer, actress and all around badass who codes in her free time',
-    languages: 'ruby, Javascript, python'
+    languages: 'ruby, Javascript, python',
+    github: 'https://github.com/muezzinsarwar/console.love-frontend'
   };
 
   before(done => {
