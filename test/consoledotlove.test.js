@@ -21,7 +21,7 @@ describe('GET /profiles', () => {
             'image',
             'name',
             'location',
-            'about',
+            'bio',
             'languages'
           );
         });
@@ -53,7 +53,7 @@ describe('GET /profiles/:id', () => {
           'image',
           'name',
           'location',
-          'about',
+          'bio',
           'languages'
         );
         done();
@@ -67,7 +67,7 @@ describe('POST /profiles', () => {
     name: 'Jenny Block',
     age: 34,
     location: 'Atlanta, GA',
-    about:
+    bio:
       'Kick ass singer, dancer, actress and all around badass who codes in her free time',
     languages: 'ruby, Javascript, python'
   };
