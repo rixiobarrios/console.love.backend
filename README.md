@@ -3,7 +3,6 @@
 # A Dating and Friendship App for Programmers
 
 ## API Overview
---MUEZZIN - can you elaborate a bit on the technologies here? Or maybe this is enough as is
 
 Our JSON data was generated using [Mockaroo](https://mockaroo.com/) and stored in a [MongoDB](https://www.mongodb.com/) database. The team used Mongoose to define the shape of our data model (a dating profile) in the form of a Schema. We then used Express with Lodash and Method-override to build and handle our HTTP requests. Testing was done using Chai, Mocha and Supertest.
 
