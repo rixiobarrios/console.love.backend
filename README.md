@@ -50,6 +50,14 @@ Our JSON data was generated using [Mockaroo](https://mockaroo.com/) and stored i
 
 - Major refactor to add user authentication
 
+## Contribution Guidelines
+
+- Fork and clone this repo
+- Open your terminal and go to the directory you want to store this application and ‘git clone’ it
+- Run ‘npm i’ in order to install all dependencies
+- Run ‘node db/seed.js’ and then ’nodemon’ to seed and see the database, and type in ‘localhost//:4000/profiles’ to see the json data
+- Create changes to the code and if you wish to add a new feature to the currently existing application [submit an issue to the back-end repo](https://github.com/muezzinsarwar/console.love-backend/issues) detailing your changes
+
 ## Sources
 
 Database Media:
