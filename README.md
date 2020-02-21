@@ -62,6 +62,7 @@ Database Media:
 - [Pixabay](https://pixabay.com/)
 - [Burst](https://burst.shopify.com/)
 - [Twitter Bio Generator](http://www.twitterbiogenerator.com/)
+- [Imgur](https://imgur.com/)
 
 Planning:
 - [Miro](https://miro.com/) to create our API dataflow diagram
