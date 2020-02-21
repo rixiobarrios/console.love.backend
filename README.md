@@ -28,15 +28,21 @@ Our JSON data was generated using [Mockaroo](https://mockaroo.com/) and stored i
   - Mocha
   - Supertest
   
- ## Profile Data Example (wait until we fix names)
- --RIXIO
+ ## Profile Data Example
  
- ## Code Samples (please label as needed)
+ ### Profile JSON Data
+ ![Profile JSON Data](https://user-images.githubusercontent.com/57021062/75055147-14453c80-549a-11ea-994b-142388b952fd.png)
+ 
+ ## Code Samples
+ 
+ ### POST and PUT Requests
+![HTTP Request](https://user-images.githubusercontent.com/57021062/75055696-22e02380-549b-11ea-89ec-1357d8d6d540.png)
 
---RIXIO
+### PUT Test
+![PUT Method Test](https://user-images.githubusercontent.com/57021062/75055717-2b385e80-549b-11ea-9056-47ee5c5c328a.png)
+
 
 ## Challenges, Bugs and Fixes
---MUEZZIN (but all may add)
 
 - Trouble connecting front and back ends - moved CORS up above Express in the index.js to fix
 
@@ -64,5 +70,5 @@ Planning:
 ## Acknowledgements
 
 Special thanks to:
-- Rixio's mentor for helping us fix our POST
+- Rixio's mentor Chris Mendoza for helping us fix our POST method
 - Esin Saribudak for helping us troubleshoot Heroku deployment
