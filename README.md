@@ -21,7 +21,9 @@ Our JSON data was generated using [Mockaroo](https://mockaroo.com/) and stored i
 -   [JSX](https://reactjs.org/docs/introducing-jsx.html)
 -   [Method-override](https://www.npmjs.com/package/method-override)
 -   [Lodash](https://lodash.com/)
-    **Connection between back and front ends**
+
+**Connection between back and front ends**
+
 -   [Cross-Origin Resourse Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 **Testing**
