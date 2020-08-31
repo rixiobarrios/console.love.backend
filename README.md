@@ -1,6 +1,8 @@
 <img width="746" src="https://user-images.githubusercontent.com/55994508/74997584-07820380-541c-11ea-9355-b1c8bad08032.png" />
 
-# A Dating and Friendship App for Programmers
+# PROJECT 3:  GA-SEIR-129 BACKEND
+
+## Console.love: A Dating and Friendship App for Programmers
 
 ## API Overview
 
